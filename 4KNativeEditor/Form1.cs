@@ -47,7 +47,7 @@ namespace _4KNativeEditor
            
             using (FileStream sr = File.OpenWrite(@"GameAssembly.dll"))
             {
-                sr.Seek(0x61071A, SeekOrigin.Begin);
+                sr.Seek(0x12CE5BA, SeekOrigin.Begin);
                 sr.WriteByte((byte)Width);
        
                
